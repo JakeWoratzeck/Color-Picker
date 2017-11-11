@@ -11,6 +11,8 @@
 		9B0B87F71FB7723900BF30E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B87F51FB7723900BF30E3 /* Main.storyboard */; };
 		9B0B87F91FB7723900BF30E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B87F81FB7723900BF30E3 /* Assets.xcassets */; };
 		9B0B87FC1FB7723900BF30E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B87FA1FB7723900BF30E3 /* LaunchScreen.storyboard */; };
+		9B0B88041FB772C200BF30E3 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B88031FB772C200BF30E3 /* ColorPickerViewController.swift */; };
+		9B0B88061FB773BA00BF30E3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B88051FB773BA00BF30E3 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9B0B87F81FB7723900BF30E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B0B87FB1FB7723900BF30E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B0B87FD1FB7723900BF30E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0B88031FB772C200BF30E3 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		9B0B88051FB773BA00BF30E3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				9B0B87F81FB7723900BF30E3 /* Assets.xcassets */,
 				9B0B87FA1FB7723900BF30E3 /* LaunchScreen.storyboard */,
 				9B0B87FD1FB7723900BF30E3 /* Info.plist */,
+				9B0B88031FB772C200BF30E3 /* ColorPickerViewController.swift */,
+				9B0B88051FB773BA00BF30E3 /* Color.swift */,
 			);
 			path = "Color Picker";
 			sourceTree = "<group>";
@@ -133,7 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0B88041FB772C200BF30E3 /* ColorPickerViewController.swift in Sources */,
 				9B0B87F21FB7723900BF30E3 /* AppDelegate.swift in Sources */,
+				9B0B88061FB773BA00BF30E3 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
